@@ -26,15 +26,3 @@
  * https://stackoverflow.com/a/16982510/7133471
  * Customize the background color to match your design.
  */
-
- :root {
-    font-size: 16px;
-
-    --dark-blue: #1B2C42;
-    --white: #fff;
-    --back: black;
- }
-
-main {
-    display: grid;
-}

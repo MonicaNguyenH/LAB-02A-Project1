@@ -1,0 +1,42 @@
+:root {
+    font-size: 16px;
+
+    --dark-blue: #1B2C42;
+    --white: #fff;
+    --back: black;
+ }
+
+body {
+    display: gird;
+}
+/*
+.gridWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2%;
+}
+*/
+
+.sponsorshipContainer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between sponsors */
+    align-items: center;
+}
+
+.sponsor {
+    width: calc(20% - 2%); /* Adjust the width based on the number of sponsors */
+    margin-right: 2%; 
+    height: 100%;
+    background-color: grey;
+}
+
+.sponsor img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+

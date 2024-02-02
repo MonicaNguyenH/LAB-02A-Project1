@@ -35,6 +35,6 @@
     --back: black;
  }
 
-main {
+html {
     display: grid;
 }
