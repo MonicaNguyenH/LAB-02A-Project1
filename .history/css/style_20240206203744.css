@@ -79,6 +79,10 @@ header {
     position: relative;
 }
 
+.col .rol-5 {
+    padding: 0;
+}
+
 /********************STYLING********************/
 .footerContainer {
     background-color: var(--dark-blue);
@@ -105,18 +109,6 @@ header {
 .col-3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-}
-
-.col .rol-5 {
-    padding: 0;
-}
-
-.col-2-1 {
-    grid-template-columns: 0.3fr 1fr;
-}
-
-.col-2-2 {
-    grid-template-columns: 1fr 0.2fr;
 }
 
 
@@ -229,16 +221,7 @@ header {
 }
 
 /********************** FOOTER **********************/
-span {
-    color: var(--blue);
-    font-weight: bold;
-}
 
-input::placeholder {
-    color: var(--white);
-    font-size: 0.7rem;
-    font-weight: bold;
-}
 
 
 

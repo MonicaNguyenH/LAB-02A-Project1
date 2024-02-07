@@ -116,7 +116,7 @@ header {
 }
 
 .col-2-2 {
-    grid-template-columns: 1fr 0.2fr;
+    grid-template-columns: 1fr 0.3fr;
 }
 
 
@@ -231,12 +231,6 @@ header {
 /********************** FOOTER **********************/
 span {
     color: var(--blue);
-    font-weight: bold;
-}
-
-input::placeholder {
-    color: var(--white);
-    font-size: 0.7rem;
     font-weight: bold;
 }
 

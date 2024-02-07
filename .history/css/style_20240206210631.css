@@ -237,7 +237,6 @@ span {
 input::placeholder {
     color: var(--white);
     font-size: 0.7rem;
-    font-weight: bold;
 }
 
 
