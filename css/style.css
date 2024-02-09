@@ -7,13 +7,19 @@
     --dark-blue: #1B2C42;
     --white: #fff;
     --black: black;
+    --grey: #DEE2E6;
+    --light-grey: #F8F9FA;
     --blue: #56CBF9;
+    --medium-blue: #0077b6;
     --green: #ACECA1;
     --yellow: #F5D491;
     --pink: #F17EA6;
-
-    padding: 0;
  }
+
+html {
+    padding: 0;
+    margin: 0;
+}
 
 audio, 
 canvas,
@@ -87,15 +93,19 @@ header {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
+    background-color: var(--white);
+    padding: 0;
+}
   
-  /* Style the buttons that are used to open the tab content */
+/* Style the buttons that are used to open the tab content */
 .tab button {
-    background-color: inherit;
+    background-color: var(--light-grey);
     float: left;
-    border: none;
+    border-top: 1px solid var(--grey);
+    border-right: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
+    color: var(--grey);
+    border-bottom: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
@@ -104,22 +114,22 @@ header {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: var(--grey);
+    color: var(--black);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 /* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    border: 1px solid var(--grey);
 }
-
 
 /********************STYLING********************/
 .footerContainer {
@@ -129,6 +139,8 @@ header {
 
 .sponsorshipContainer {
     margin: 1rem;
+    column-gap: 4rem;
+    padding: 1rem;
 }
 
 .tabcontent p {
@@ -178,8 +190,8 @@ header {
 @media screen and (max-width: 39.9375em) {
     .row {
         margin: auto;
-        max-width: 60rem;
-        column-gap: 1rem;
+        max-width: 20rem;
+        column-gap: 0.2rem;
         row-gap: 1rem;
     }
 
@@ -189,6 +201,10 @@ header {
 
     .s-col-2 {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .s-col-5 {
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .col-2 {
@@ -207,7 +223,7 @@ header {
     .row {
         margin: auto;
         max-width: 40rem;
-        column-gap: 1rem;
+        column-gap: 0.2rem;
         row-gap: 1rem;
     }
 
@@ -218,9 +234,17 @@ header {
     .m-col-2 {
         grid-template-columns: 1fr 1fr;
     }
+
+    .m-col-9 {
+        grid-template-columns: repeat(9, 1fr);
+    }
     
     .m-col-2-1 {
         grid-template-columns: 0.2fr 1fr;
+    }
+
+    .m-col-7 {
+        grid-template-columns: repeat(7, 1fr);
     }
 
 }
@@ -229,7 +253,9 @@ header {
 /********************** Medium only **********************/
 @media screen and (min-width: 40em) and
 (max-width: 63.9375em) {
-    
+    .m-hide {
+        display: none;
+    }
 }
 
 
@@ -238,7 +264,7 @@ header {
     .row{
         margin: auto;
         max-width: 60rem;
-        column-gap: 1rem;
+        column-gap: 0.2rem;
         row-gap: 1rem;
     }
 
@@ -254,6 +280,13 @@ header {
         grid-template-columns: 0.15fr 1fr;
     }
 
+    .l-col-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .l-col-11 {
+        grid-template-columns: repeat(11, 1fr);
+    }
     
 }
 
@@ -261,6 +294,9 @@ header {
 /********************** Large only **********************/
 @media screen and (min-width: 64em) and
 (max-width: 74.9375em) {
+    .l-hide {
+        display: none;
+    }
 }
 
 /********************** ARROW **********************/
@@ -305,6 +341,53 @@ input::placeholder {
     font-size: 0.7rem;
     font-weight: bold;
 }
+
+.profile img {
+    border-radius: 50%;
+}
+
+/********************** COLOR BLOCKS **********************/
+
+.colorContainer {
+    background-color: var(--dark-blue);
+    margin: 0;
+}
+
+.colorContainer .grid {
+    column-gap: 0;
+}
+
+.green,
+.yellow,
+.pink,
+.blue,
+.dark-blue
+ {
+    height: 1rem;
+    width: 100%;
+    padding: 0;
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.dark-blue {
+    background-color: var(--medium-blue);
+}
+
 
 
 
