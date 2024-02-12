@@ -1,0 +1,36 @@
+/* ==========================================================================
+    [Table of contents]
+
+    1. BASE
+        1.1 Page Rendering Defaults
+        1.2 User Experience Adjustments
+        1.3 Core Styling
+    2. LAYOUT
+    3. MODULES
+    4. STATES
+    5. UTILITIES
+    6. PRINT
+    7. MISC
+
+    ========================================================================== */
+/* ==========================================================================
+    1. BASE
+    ========================================================================== */
+/* 1.1 Page Rendering Defaults */
+
+/* 1.2 User Experience Adjustments */
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ * Customize the background color to match your design.
+ */
+
+ :root {
+    font-size: 16px;
+    display: grid;
+
+    --dark-blue: #1B2C42;
+    --white: #fff;
+ }

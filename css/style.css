@@ -597,8 +597,7 @@ input::placeholder {
 .yellow,
 .pink,
 .blue,
-.dark-blue
-{
+.dark-blue .main {
     height: 1rem;
     width: 100%;
     padding: 0;
@@ -623,7 +622,7 @@ input::placeholder {
 .dark-blue {
     background-color: var(--medium-blue);
 }
-/********************** FOOTER **********************/
+
 span {
     color: var(--blue);
     font-weight: bold;
@@ -656,31 +655,3 @@ input::placeholder {
     height: 7rem;
     border: var(--grey) 1px solid;
 }
-
-
-
-
-
-/*
-p {
-        font-size: 0.6em;
-        font-style: italic;
-    }
-
-
-
-
-p {
-        font-size: 0.2em;
-        font-style: italic;
-    }
-
-
-
-p {
-    font-size: 0.7em;
-    font-style: italic;
-}
-
-
-/*
