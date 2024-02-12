@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jumi - Tina - Monica  LAB-02A</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css"
         <meta name="description" content="">
 
         <meta property="og:title" content="">
@@ -21,67 +21,171 @@
         <meta name="theme-color" content="#fafafa">
     </head>
     <body>
+        <!-- Header with logos and categories here-->
         <header class="headerContainer">
             <div class="navigationBar">
-                <div class="logo">
-                    <h1> Metrolics </h1>
-                    <img src="/happy.gif" alt="logo" width="50px" height="50px">
-                </div>
-                <div class="menuContainer">
-                    <div class="menu-component-home">
-                        <img src="/home.png" alt="home-icon" width="30px" height="30px">
-                        Home
+                <div class="row s-col-2-3 m-col-2-3 l-col-2-3">
+                    <div class="logo col grid col-2-1-1">
+                        <div class="col">
+                            <h1> Metrolics </h1>
+                        </div>
+                        <div class="col logo-icon">
+                            <img class="logo-icon"src="/img/logo.png" alt="logo">
+                        </div>
                     </div>
-                    <div class="menu-component-page">
-                        <img src="/page.png" alt="page-icon" width="30px" height="30px">
-                        Page
-                    </div>
-                    <div class="menu-component-blog">
-                        <img src="/blog.png" alt="blog-icon" width="30px" height="30px">Blog</div>
-                    <div class="menu-component-porfolio">
-                        <img src="/porfolio.png" alt="porfolio-icon" width="30px" height="30px">
-                        Porfolio
-                    </div>
-                    <div class="menu-component-mail">
-                        <img src="/email.png" alt="mail-icon" width="30px" height="30px">
-                        Mail
+                    <div class="menuContainer col">
+                        <div class="grid m-col-5 l-col-5 s-hide">
+                            <div class="menu-component-home col">
+                                <div>
+                                    <img class="menu-icon" src="/img/home.png" alt="home-icon">
+                                </div>
+                                <div>
+                                    Home
+                                </div>
+                            </div>
+                            <div class="menu-component-page col">
+                                <div>
+                                    <img class="menu-icon" src="/img/page.png" alt="page-icon">
+                                </div>
+                                <div>
+                                    Page
+                                </div>
+                            </div>
+                            <div class="menu-component-blog col">
+                                <div>
+                                    <img class="menu-icon" src="/img/blog.png" alt="blog-icon">
+                                </div>
+                                <div>
+                                    Blog
+                                </div>
+                            </div>
+                            <div class="menu-component-porfolio col">
+                                <div>
+                                    <img class="menu-icon" src="/img/portfolio.png" alt="porfolio-icon">
+                                </div>
+                                <div>
+                                    Porfolio
+                                </div>
+                            </div>
+                            <div class="menu-component-mail col">
+                                <div>
+                                    <img class="menu-icon" src="/img/mail.png" alt="mail-icon">
+                                </div>
+                                <div>
+                                    Mail
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menuButton col m-hide l-hide">
+                            <div class="grid s-col-2-3">
+                                <div>
+                                    
+                                </div>
+                                <div>
+                                    <img src="img/menu-btn.png" alt="menu-button icon">
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
-            <div class="carouselContainer"></div>
+            <!--Carousel Start Here-->
+            <div class="carouselContainer">
+                <div class="row carousel-img">
+                    <div class="col carousel-image-main"">
+                        <img src="/img/carousel.png" alt="Carousel Image">
+                    </div>
+                </div>
+                    <div class="carousel-button-container">
+                        <div class="fixed-button">
+                            <div class="carousel-button">
+                                <button class="button-metro">Metro Styles</button>
+                            </div>
+                            <div class="carousel-button">
+                                <button class="button-retina">Retina Styles</button>
+                            </div>
+                            <div class="carousel-button">
+                                <button class="button-responsive">Responsive Design</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+            </div>
+            <!--Carousel End Here-->
        </header>
        <main class="mainContainer"> 
         <div class="headingContainer">
-            <h1 class="headingOne">Hey guys! This is the Metrolics theme.
+            <h1 class="headingOne">Hey guys! This is the <span>Metrolics</span> theme.
+                <br/>
                 It sports a responsive layout with a mobile layout.</h1>
         </div>
         <!--can be called serviceContainer-->
         <div class="infoContainer">
-            <div class="infoTitle">
-                <h2 class="headingTwo">Things That We Do</h2> <!--section intro heading-->
-                <h4 class="headingFour">Ask us what we can do for you</h4> <!--section intro subheading-->
-            </div>
-            <!--can be called sectionItem-->
-            <div class="infoBox">
-                <img src="/improvement.png" alt="web solutions" width="40px" height="40px">
-                <h4 class="info-box-content">Web Solutions</h4>
-                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-            </div>
-            <div class="infoBox">
-                <img src="/photo-camera.png" alt="photography" width="40px" height="40px">
-                <h4 class="info-box-content">Photography</h4>
-                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-            </div>
-            <div class="infoBox">
-                <img src="/puzzle-pieces.png" alt="web development" width="40px" height="40px">
-                <h4 class="info-box-content">Web Development</h4>
-                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-            </div>
-            <div class="infoBox">
-                <img src="/idea.png" alt="web design" width="40px" height="40px">
-                <h4 class="info-box-content">Web Design</h4>
-                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-            </div>
-        </div>
+            <div>
+                <div class="row">
+                    <div class="infoTitle col">
+                        <h2 class="headingTwo">Things That We Do</h2> <!--section intro heading-->
+                        <h4 class="headingFour">Ask us what we can do for you</h4> <!--section intro subheading-->
+                    </div>
+                </div>
+                <!--can be called sectionItem-->
+                <div class="row col-4 s-col-1 m-col-2 l-col-4">
+                    <div class="infoBox col">
+                        <div class="grid s-col-2-4">
+                            <div class="col">
+                                <img src="/img/lightbulb.png" alt="web solutions">
+                            </div>
+                            <div class="col info-box-info">
+                                <h4 class="info-box-content">Web Solutions</h4>
+                                <p>We are a fairly small, flexible design studio that designs for print and web. 
+                                We work flexibly with clients to fulfil their design needs. Whether you need to
+                                create a brand from scratch, including marketing materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infoBox col">
+                        <div class="grid s-col-2-4">
+                            <div class="col">
+                                <img src="/img/photo.png" alt="photography">
+                            </div>
+                            <div class="col info-box-info">
+                                <h4 class="info-box-content">Photography</h4>
+                                <p>We are a fairly small, flexible design studio that designs 
+                                for print and web. We work flexibly with clients to fulfil their
+                                design needs. Whether you need to create a brand from 
+                                scratch, including marketing materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infoBox col">
+                        <div class="grid s-col-2-4">
+                            <div class="col">
+                                <img src="/img/set.png" alt="web development">
+                            </div>
+                            <div class="col info-box-info">
+                                <h4 class="info-box-content">Web Development</h4>
+                                <p>We are a fairly small, flexible design studio that designs for 
+                                    print and web. We work flexibly with clients to fulfil their design
+                                    needs. Whether you need to create a brand from scratch, including 
+                                    marketing materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infoBox col">
+                        <div class="grid s-col-2-4">
+                            <div class="col">
+                                <img src="/img/pen.png" alt="web design">
+                            </div>
+                            <div class="col info-box-info">
+                                <h4 class="info-box-content">Web Design</h4>
+                                <p>We are a fairly small, flexible design studio that designs for 
+                                    print and web. We work flexibly with clients to fulfil their 
+                                    design needs. Whether you need to create a brand from scratch, 
+                                    including marketing materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
 
         <div class="imageContainer">
             <div class="imageTitle">
@@ -130,6 +234,7 @@
         <div class="footerBox"></div>
         <div class="footerBox"></div>
        </footer>
+       <!-- -->
     </body>
 
 </html>
