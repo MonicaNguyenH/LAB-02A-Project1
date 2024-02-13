@@ -642,7 +642,7 @@ input::placeholder {
     color: var(--black);
     border: 0.1em solid var(--grey);
     cursor: pointer;
-    padding: 0.4em;
+    padding: 0.3em;
 
 }
 
@@ -673,7 +673,7 @@ input::placeholder {
 
 .accordionText {
     font-style: normal;
-    color: var(-);
+    margin: 0px;
 }
 
 .accordionItem.active .accordionHeader {
@@ -696,7 +696,7 @@ input::placeholder {
 
 /* TITLE */
 
-.accordionTitle,
+.miscTitle,
 .imageTitle,
 .projectTitle {
     margin: 1.2rem;
