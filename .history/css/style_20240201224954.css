@@ -1,0 +1,17 @@
+:root {
+    font-size: 16px;
+
+    --dark-blue: #1B2C42;
+    --white: #fff;
+    --back: black;
+ }
+
+body {
+    display: gird;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 160px 1fr 160px;
+}
+
