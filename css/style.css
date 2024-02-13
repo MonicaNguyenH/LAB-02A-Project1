@@ -525,15 +525,14 @@ header {
 
 }
 
-
-/********************** Large only **********************/
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+@media only screen and (min-width: 56.25rem) {
     .l-hide {
         display: none;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+/********************** Large only **********************/
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
     .l-hide {
         display: none;
     }
