@@ -469,9 +469,47 @@ span {
 }
 /* service content endshere*/
 
-/*********************color container*********************/
+/********************** COLOR BLOCKS **********************/
 
+.colorContainer {
+    background-color: var(--dark-blue);
+    margin: 0;
+}
 
+.colorContainer .grid {
+    column-gap: 0;
+}
+
+.green,
+.yellow,
+.pink,
+.blue,
+.dark-blue
+ {
+    height: 1rem;
+    width: 100%;
+    padding: 0;
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.dark-blue {
+    background-color: var(--medium-blue);
+}
 
 
 /*********************Small only*********************/
