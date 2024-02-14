@@ -1,0 +1,11 @@
+:root {
+    font-size: 16px;
+
+    --dark-blue: #1B2C42;
+    --white: #fff;
+    --back: black;
+ }
+
+.footerContainer {
+    display: grid;
+}
