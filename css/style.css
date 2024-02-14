@@ -85,12 +85,10 @@ header {
 }
 
 .col {
-    position: relative;
-    
-<<<<<<< HEAD
+    position: relative;    
 }
 
-<<<<<<< HEAD
+
 /*Carousel Styles*/
 .carousel-image-main {
     padding: 0;
@@ -296,19 +294,17 @@ header {
 }
 
 .tabcontent p {
-    margin: 0;
-=======
-span {
-    color: var(--blue);
-    font-weight: bold;
->>>>>>> af2cffc (Header, carousel)
-=======
+    margin: 0; 
 }
 
 span {
     color: var(--blue);
     font-weight: bold;
->>>>>>> gitignore
+}
+
+span {
+    color: var(--blue);
+    font-weight: bold;
 }
 
 .row-span {
@@ -472,6 +468,11 @@ span {
     margin-bottom: 10px;
 }
 /* service content endshere*/
+
+/*********************color container*********************/
+
+
+
 
 /*********************Small only*********************/
 @media screen and (max-width: 39.9375em) {
