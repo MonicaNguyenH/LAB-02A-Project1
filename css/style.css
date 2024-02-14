@@ -88,6 +88,7 @@ header {
 .col {
     position: relative;
     
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -302,6 +303,13 @@ span {
     color: var(--blue);
     font-weight: bold;
 >>>>>>> af2cffc (Header, carousel)
+=======
+}
+
+span {
+    color: var(--blue);
+    font-weight: bold;
+>>>>>>> gitignore
 }
 
 .row-span {
