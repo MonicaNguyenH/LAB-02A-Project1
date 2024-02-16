@@ -670,9 +670,9 @@ span {
         grid-template-columns: repeat(6, 1fr);
     }
 
-    .l-col-11 {
+    /*.l-col-11 {
         grid-template-columns: repeat(11, 1fr);
-    }
+    }*/
     
     
 }
