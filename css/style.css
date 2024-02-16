@@ -747,6 +747,11 @@ input::placeholder {
         grid-template-columns: 1fr 4fr;
         column-gap: 6rem;
     }
+
+    .l-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .l-col-5 {
         grid-template-columns: repeat(5,1fr);
         height: 6rem;
