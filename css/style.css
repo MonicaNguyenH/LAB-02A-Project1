@@ -511,6 +511,92 @@ span {
     background-color: var(--medium-blue);
 }
 
+/********************** FOOTER **********************/
+span {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+input {
+    border-radius: 0;
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+input::placeholder {
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+** ACCORDION **/
+.accordionHeader {
+    color: var(--black);
+    border: 0.1em solid var(--grey);
+    cursor: pointer;
+    padding: 0.3em;
+
+}
+
+.accordionHeader.active {
+    background-color: var(--blue);
+}
+
+.accordionContent {
+    background-color: var(--light-grey);
+    border: 0.1em solid var(--grey);
+    display: none;
+
+
+}
+
+.accordionItem.active .accordionContent {
+    display: block;
+}
+
+.lightbulbIcon {
+    width: auto;
+    padding: 1rem;
+}
+
+.accordionTitle {
+    font-size: 1rem;
+}
+
+.accordionText {
+    font-style: normal;
+    margin: 0px;
+}
+
+.accordionItem.active .accordionHeader {
+    background-color: var(--buttonblue);
+    color: var(--white);
+}
+
+/** IMAGE CONTAINERS **/
+
+.image {
+    width: auto;
+}
+
+/* HEADERS */
+
+.title,
+.subtitle {
+    text-align: center;
+}
+
+/* TITLE */
+
+.miscTitle,
+.imageTitle,
+.projectTitle {
+    margin: 1.2rem;
+}
 
 /*********************Small only*********************/
 @media screen and (max-width: 39.9375em) {
@@ -683,5 +769,8 @@ span {
         display: none;
     }
 }
+
+
+
 
 
